@@ -1,0 +1,11 @@
+mkdir -p .repo/local_manifests
+
+cat > .repo/local_manifests/roomservice.xml << 'EOF'
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="SavedByLight-WIP/lineage_device_samsung_m55xq" path="device/samsung/m55xq" remote="github" revision="lineage-23.2" />
+  <project name="SavedByLight-WIP/android_vendor_samsung_m55xq" path="vendor/samsung/m55xq" remote="github" revision="M556BXXS4BYH2" />
+  <project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="github" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.2" />
+</manifest>
+EOF
